@@ -50,5 +50,25 @@ button {
     border-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-img {
+
+#slideShowContainer {
+    background-color: #000000;
+    height: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#slideShowHeading {
+    font-size: 32px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#slideShowContainer img {
+    height: 380px; 
+}
+
+
